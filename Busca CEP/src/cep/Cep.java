@@ -159,7 +159,7 @@ public class Cep extends JFrame {
 		btnSobre.setBounds(362, 32, 48, 48);
 		contentPane.add(btnSobre);
 
-		// uso da biblioteca atxy2k para validação do campo txtCep
+		// uso da biblioteca atxy2k para validaï¿½ï¿½o do campo txtCep
 		RestrictedTextField validar = new RestrictedTextField(txtCep);
 		
 		lblStatus = new JLabel("");
@@ -203,12 +203,12 @@ public class Cep extends JFrame {
 		        	if(resultado.equals("1")) {
 		        		lblStatus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/check.png")));
 		        	}else {
-		        		JOptionPane.showMessageDialog(null, "CEP não encontrado");
+		        		JOptionPane.showMessageDialog(null, "CEP nï¿½o encontrado");
 		        	}
 		        }
 		    }
 			
-			//setar o campo endereço
+			//setar o campo endereï¿½o
 			txtEndereco.setText(tipoLogradouro + " " + logradouro);
 			
 		} catch (Exception e) {
@@ -226,4 +226,5 @@ public class Cep extends JFrame {
 		txtCep.requestFocus();
 		lblStatus.setIcon(null);
 	}
+	// comentario desnecessario
 }
