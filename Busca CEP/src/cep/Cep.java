@@ -226,5 +226,4 @@ public class Cep extends JFrame {
 		txtCep.requestFocus();
 		lblStatus.setIcon(null);
 	}
-	// comentario desnecessario
 }
